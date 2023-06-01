@@ -1,5 +1,6 @@
 <?php
-$db_host = 'localhost';
+
+  /* $db_host = 'localhost';
   $db_user = 'root';
   $db_password = 'root';
   $db_db = 'tomifor';
@@ -26,21 +27,19 @@ $db_host = 'localhost';
   echo '<br>';
   echo 'Protocol version: '.$mysqli->protocol_version;
 	
-
-
-  $mysqli->close(); 
+  $mysqli->close();  */
   
 ?>
 
 <?php
 	
-	/* global $link;
+	global $link;
 	$link =  mysql_connect('localhost',  'root', 'root');
 	$db = mysql_select_db( 'tomifor', $link);
 	mysql_query("SET NAMES 'utf8'");
 	
-
-	$base_url = "http://localhost:8888/" */	
+	$base_url = "http://localhost:8888/"
+  
 ?> 
 
 
