@@ -1,0 +1,452 @@
+/* line 13, ../../sass/style-admin-mcardin.scss */
+body {
+  font-family: helvetica, arial, verdana;
+  color: #424f5a;
+  background-color: #fbfbfb;
+}
+
+/* line 19, ../../sass/style-admin-mcardin.scss */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: arial, helvetica, verdana;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  word-spacing: -0.06em;
+}
+
+/* line 26, ../../sass/style-admin-mcardin.scss */
+a {
+  color: #005fff;
+}
+
+/* line 37, ../../sass/style-admin-mcardin.scss */
+a.sidebar-toggle:hover {
+  color: #005fff;
+}
+@media (min-width: 768px) {
+  /* line 36, ../../sass/style-admin-mcardin.scss */
+  a.sidebar-toggle {
+    display: none;
+  }
+}
+
+.descuento span {
+    color: #d26d51;
+}
+
+/* line 46, ../../sass/style-admin-mcardin.scss */
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+  background-color: #424f5a;
+}
+
+/* line 51, ../../sass/style-admin-mcardin.scss */
+.main-sidebar {
+  border-right: 2px solid #2d3b47;
+}
+
+/* line 55, ../../sass/style-admin-mcardin.scss */
+.main-sidebar, .left-side {
+  padding-top: 60px;
+}
+
+/* line 61, ../../sass/style-admin-mcardin.scss */
+.skin-blue .sidebar-menu > li.header {
+  margin-top: 10px;
+  padding: 5px 25px 7px 20px;
+  font-size: 11px;
+  border-top: 1px solid #424f5a;
+  background: none !important;
+  letter-spacing: 0.06em;
+  color: #657c90 !important;
+}
+/* line 71, ../../sass/style-admin-mcardin.scss */
+.skin-blue .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+  font-weight: 700;
+  color: #fff;
+  padding: 6px 5px 6px 15px;
+}
+/* line 76, ../../sass/style-admin-mcardin.scss */
+.skin-blue .sidebar-menu > li > a:hover {
+  border-left: 3px solid #005fff;
+  background-color: #36424b;
+}
+/* line 82, ../../sass/style-admin-mcardin.scss */
+.skin-blue .sidebar-menu > li:hover > a {
+  border-left: 3px solid #005fff;
+}
+/* line 85, ../../sass/style-admin-mcardin.scss */
+.skin-blue .sidebar-menu li.active > a {
+  border-left: 3px solid #005fff;
+  background: #36424b;
+}
+/* line 91, ../../sass/style-admin-mcardin.scss */
+.skin-blue .main-header .logo {
+  background-color: #005fff;
+  height: 60px;
+  font-size: 14px;
+  line-height: 60px;
+  font-weight: normal;
+  text-align: left;
+  padding: 0 20px;
+}
+/* line 99, ../../sass/style-admin-mcardin.scss */
+.skin-blue .main-header .logo:hover {
+  background-color: #005fff;
+}
+@media (min-width: 768px) {
+  /* line 91, ../../sass/style-admin-mcardin.scss */
+  .skin-blue .main-header .logo {
+    width: 280px;
+  }
+}
+/* line 105, ../../sass/style-admin-mcardin.scss */
+.skin-blue .main-header .logo .logo-header {
+  width: 28px;
+  margin-left: 5px;
+}
+/* line 110, ../../sass/style-admin-mcardin.scss */
+.skin-blue .main-header .navbar {
+  background-color: #005fff;
+}
+@media (min-width: 768px) {
+  /* line 110, ../../sass/style-admin-mcardin.scss */
+  .skin-blue .main-header .navbar {
+    margin-left: 280px;
+  }
+}
+
+/* line 122, ../../sass/style-admin-mcardin.scss */
+.treeview-menu > li > a {
+  background: #36424b;
+  padding: 10px 5px 10px 15px !important;
+}
+
+@media (min-width: 768px) {
+  /* line 128, ../../sass/style-admin-mcardin.scss */
+  .main-sidebar {
+    width: 280px;
+  }
+}
+
+/* line 135, ../../sass/style-admin-mcardin.scss */
+.navbar-custom-menu i {
+  padding: 7px 5px;
+}
+/* line 139, ../../sass/style-admin-mcardin.scss */
+.navbar-custom-menu .user i {
+  border: 1px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  padding: 7px 8px;
+  margin-right: 5px;
+  background-color: #3580ff;
+}
+
+/* line 151, ../../sass/style-admin-mcardin.scss */
+.nav > li > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 60px;
+  line-height: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 161, ../../sass/style-admin-mcardin.scss */
+.navbar-nav > .user-menu > .dropdown-menu {
+  width: 200px;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.3);
+  box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.3);
+}
+
+/* line 169, ../../sass/style-admin-mcardin.scss */
+.btn {
+  padding: 8px 12px;
+  line-height: 1.4;
+}
+
+/* line 174, ../../sass/style-admin-mcardin.scss */
+.btn-info {
+  background-color: #005fff;
+  border-color: #005fff;
+}
+/* line 177, ../../sass/style-admin-mcardin.scss */
+.btn-info:hover {
+  background-color: #0a58db;
+  border-color: #005fff;
+}
+/* line 181, ../../sass/style-admin-mcardin.scss */
+.btn-info:active {
+  background-color: #005fff !important;
+  border-color: #005fff !important;
+}
+
+/* line 187, ../../sass/style-admin-mcardin.scss */
+.btn-success {
+  background-color: #35c080;
+  border-color: #35c080;
+}
+/* line 190, ../../sass/style-admin-mcardin.scss */
+.btn-success:hover {
+  background-color: #31aa72;
+  border-color: #31aa72;
+}
+/* line 194, ../../sass/style-admin-mcardin.scss */
+.btn-success:active {
+  background-color: #35c080;
+  border-color: #35c080;
+}
+
+/* line 201, ../../sass/style-admin-mcardin.scss */
+.bg-green, .callout.callout-success, .alert-success, .label-success, .modal-success .modal-body {
+  background-color: #35c080 !important;
+}
+
+/* line 209, ../../sass/style-admin-mcardin.scss */
+.content-wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  /* line 214, ../../sass/style-admin-mcardin.scss */
+  .content-wrapper, .right-side, .main-footer {
+    margin-left: 280px;
+  }
+}
+
+/* line 221, ../../sass/style-admin-mcardin.scss */
+.content {
+  padding: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+/* line 227, ../../sass/style-admin-mcardin.scss */
+.content-header {
+  padding: 35px 35px 0 35px;
+}
+/* line 229, ../../sass/style-admin-mcardin.scss */
+.content-header > h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  border-bottom: 1px solid #d5d4d4;
+  padding-bottom: 10px;
+}
+/* line 234, ../../sass/style-admin-mcardin.scss */
+.content-header > h1 > small {
+  font-size: 20px;
+  display: block;
+  padding-left: 0;
+  margin-top: 5px;
+  color: inherit;
+}
+
+/* line 244, ../../sass/style-admin-mcardin.scss */
+.box {
+  /*border-top: 3px solid $azul;*/
+  border-top: 0;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* line 253, ../../sass/style-admin-mcardin.scss */
+.box-body {
+  padding: 40px;
+}
+
+/* line 257, ../../sass/style-admin-mcardin.scss */
+.btns-cargar {
+  overflow: hidden;
+  margin-top: 35px;
+}
+
+/* line 262, ../../sass/style-admin-mcardin.scss */
+.btns-top {
+  overflow: hidden;
+  margin: 0 0 25px 0;
+}
+
+/* line 271, ../../sass/style-admin-mcardin.scss */
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  vertical-align: middle;
+}
+
+/* line 275, ../../sass/style-admin-mcardin.scss */
+.thumbnail-list {
+  max-height: 50px;
+  max-width: 100px;
+}
+
+/* line 280, ../../sass/style-admin-mcardin.scss */
+.margin-separar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 286, ../../sass/style-admin-mcardin.scss */
+.separador {
+  height: 5px;
+  background-color: #dadada;
+  width: 100%;
+  margin: 40px 0;
+}
+
+/* line 293, ../../sass/style-admin-mcardin.scss */
+.form-group {
+  margin-bottom: 25px;
+}
+/* line 296, ../../sass/style-admin-mcardin.scss */
+.form-group .input-group .input-group-addon {
+  background-color: #f5f5f5;
+  border: 2px solid #ccc;
+  border-right: 0;
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+/* line 307, ../../sass/style-admin-mcardin.scss */
+.form-group .input-group .form-control {
+  border-left: 1px solid #ccc;
+}
+
+/* line 316, ../../sass/style-admin-mcardin.scss */
+.form-control {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+}
+/* line 321, ../../sass/style-admin-mcardin.scss */
+.form-control:focus {
+  border-color: #aba9a9;
+}
+
+/* line 329, ../../sass/style-admin-mcardin.scss */
+.carga-img {
+  /*border: 3px dashed #ccc;*/
+  height: 150px;
+  padding: 5px;
+  margin: 15px 0 20px;
+  text-align: center;
+  overflow: hidden;
+  /*background: url(../img/icon-image-128.png) no-repeat center center;*/
+  background: #f5f5f5;;
+}
+
+.carga-img img{
+  height: 100px;
+  float: left;
+  margin: 5px;
+}
+
+/* line 338, ../../sass/style-admin-mcardin.scss */
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+  background-color: #005fff;
+  color: #fff;
+  cursor: default;
+}
+
+/* line 345, ../../sass/style-admin-mcardin.scss */
+.totales {
+  padding: 30px 20px 35px 20px;
+}
+/* line 347, ../../sass/style-admin-mcardin.scss */
+.totales .subtotal {
+  border-top: 1px solid #ccc;
+  padding: 10px 0px;
+}
+/* line 351, ../../sass/style-admin-mcardin.scss */
+.totales .total {
+  padding: 5px 0px 0px 0;
+  border-top: 1px solid #ccc;
+}
+/* line 356, ../../sass/style-admin-mcardin.scss */
+.totales .total span {
+  padding: 7px 15px;
+  font-size: 12px;
+}
+
+/* line 365, ../../sass/style-admin-mcardin.scss */
+.perfil {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/* line 370, ../../sass/style-admin-mcardin.scss */
+hr {
+  border-top: 1px solid #e7e7e7;
+}
+
+/* line 376, ../../sass/style-admin-mcardin.scss */
+.categories-tree h5 {
+  margin-bottom: 30px;
+}
+/* line 379, ../../sass/style-admin-mcardin.scss */
+.categories-tree .checkbox-cat-ppal {
+  border-top: 1px solid #CBCBCB;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+/* line 383, ../../sass/style-admin-mcardin.scss */
+.categories-tree .checkbox-cat-ppal > label {
+  font-weight: bold;
+}
+/* line 387, ../../sass/style-admin-mcardin.scss */
+.categories-tree .sub-checkbox {
+  margin-left: 20px;
+}
+
+/* line 399, ../../sass/style-admin-mcardin.scss */
+.login-page {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/fdo-bienvenida.jpg);
+}
+
+/* line 406, ../../sass/style-admin-mcardin.scss */
+.login-box {
+  max-width: 460px !important;
+  width: unset;
+}
+/* line 409, ../../sass/style-admin-mcardin.scss */
+.login-box .login-box-body, .login-box .register-box-body {
+  background: none;
+}
+/* line 412, ../../sass/style-admin-mcardin.scss */
+.login-box .input-lg {
+  height: 55px;
+}
+/* line 415, ../../sass/style-admin-mcardin.scss */
+.login-box .btn-lg {
+  padding: 15px 16px;
+}
+
+/* line 420, ../../sass/style-admin-mcardin.scss */
+.login-box-msg {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  margin-bottom: 0px;
+}
+
+
+.form-control.checkbox{
+      -webkit-appearance: checkbox;
+    text-align: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.note-editor.note-frame {
+    border: 1px solid #a9a9a9;
+    left: 1px;
+}

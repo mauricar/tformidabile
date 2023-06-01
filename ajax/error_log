@@ -1,0 +1,2 @@
+[28-Jun-2020 12:20:33 America/Argentina/Buenos_Aires] PHP Notice:  fputs(): send of 34 bytes failed with errno=32 Broken pipe in /home/piedraspatagonia/public_html/ajax/PHPMailer/class.smtp.php on line 494
+[28-Jun-2020 12:20:33 America/Argentina/Buenos_Aires] PHP Notice:  fputs(): send of 12 bytes failed with errno=32 Broken pipe in /home/piedraspatagonia/public_html/ajax/PHPMailer/class.smtp.php on line 212

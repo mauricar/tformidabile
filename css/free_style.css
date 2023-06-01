@@ -1,0 +1,8 @@
+.btn-envio.disabled{
+	background: #e68c61;
+	cursor: not-allowed;
+}
+
+.mapa iframe{
+	width: 100%;
+}
